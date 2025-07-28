@@ -1,0 +1,24 @@
+
+#gameContainer {
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+.cell {
+  width: 75px;
+  height: 75px;
+  font-size: 50px;
+  border: 2px solid rgb(48, 47, 47);  
+  margin-bottom: 6px;
+  box-shadow: 0 0 2px;
+  line-height: 75px;
+  cursor: pointer;
+  color: black
+}
+
+#cellContainer {
+  display: grid;    
+  font-size: 18px;
+  grid-template-columns: repeat(3, auto);
+  width: 250px;
+  margin: auto;
+}
