@@ -1,16 +1,11 @@
-*{
+  *{
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
   box-sizing: border-box;   
   position: relative; 
 }
-.container {
-  /* width: 100%; 
-  min-width: 100vh;
-  background: linear-gradient(135deg, #153677, #4e085f); */
-  /* text-align: center; */
-}
+
 
 .todo-app {
   width: 100%;
@@ -19,6 +14,8 @@
   margin: 100px auto 20px;
   padding: 40px 30px 70px;
   border-radius: 10px;
+  border: 1.5px solid  rgba(165, 158, 158, 0.25);
+  box-shadow: 0 4px 20px rgba(165, 158, 158, 0.25);
 }
 
 .todo-app h2 {
@@ -86,16 +83,16 @@ ul li span {
   position: absolute;
   right: 0;
   top: 5px;
-  width: 40px;
-  height: 40px;
-  font-size: 22px;
+  width: 25px;
+  height: 25px 0;
+  font-size: 20px;
   color: #555;
-  line-height: 40px;
+  line-height: 25px;
   text-align: center;
   border-radius: 50%;
 }
 
-ul li span :hover {
-  background: #edeef0;
+ul li span:hover {
+  background: #7d99c4;
   
 }
