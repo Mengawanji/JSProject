@@ -12,7 +12,7 @@ class person {
 
 class Meal {
     constructor(food, drink) {
-        this.food = food;
+        this.food = food;y
         this.drink = drink;
     }
 
