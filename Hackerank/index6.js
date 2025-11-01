@@ -24,3 +24,36 @@ function modifyArray(nums) {
     }
     return nums;
 }
+
+
+// Alternative approach using map() 
+
+// How it works:
+
+// We iterate through each element in the nums array
+
+// For each element, we check if it's even using the modulo operator %
+
+// If num % 2 === 0, the number is even, so we multiply by 2
+
+// If num % 2 !== 0, the number is odd, so we multiply by 3
+
+// Return the modified array
+
+
+function modifyArray(nums) {
+    return nums.map(num => num % 2 === 0 ? num * 2 : num * 3);
+}
+
+
+
+// fibonacci
+
+const fibonacci = (n) => {
+    if (n <= 1) return n;
+    return fibonacci(n - 1) + fibonacci(n - 2);
+};
+
+// Example usage
+console.log(fibonacci(6)); // Output: 8
+console.log(fibonacci(10)); // Output: 55
